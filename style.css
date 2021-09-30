@@ -15,6 +15,9 @@ h1 {
     padding: 20px;
     border-radius: 20px;
 }
+#form-wrapper fieldset {
+    border: none;
+}
 #form-wrapper label {
     display: inline-block;
     font-weight: bold;
