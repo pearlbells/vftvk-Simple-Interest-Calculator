@@ -1,4 +1,31 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    /* background-color:tan; */
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color:#808080;
+    font-weight: bolder;
+}
+
+#form-wrapper {
+    margin: 0 auto;
+    max-width: 452px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+#form-wrapper label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width : 100px;
+}
+#result {
+    display: block;
+}
+#copyright {
+    display: block;
+}
 
 
