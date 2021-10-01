@@ -15,17 +15,21 @@
                 <input type="range"  id="rate" name="rate" min="1" max="100" step="0.05" value="3.5" oninput="rangeOutputId.value = rate.value">
                 <output name="rangeOutput" id="rangeOutputId">3.5</output>%  <br/>
                 <label for="years">No. of Years</label> 
-                <!-- <input type="number" name="number" min="1"> -->
                 <select name="years" id="years">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
+                    <option value="5" selected>5</option>
                     <option value="6">6</option>
-                </select>
-                <span id="result"></span><br>
-                <button onclick="compute()">Compute Interest</button>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select><br>
+                <button onclick="compute()">Compute Interest</button><br>
+                <span id="result"></span>
             </fieldset>
             <span id="copyright">&copy;&nbsp;Everyone Can Get Rich</span>
         </div>

@@ -17,18 +17,23 @@ h1 {
 }
 #form-wrapper fieldset {
     border: none;
+    margin-left: 12%;
 }
 #form-wrapper label {
     display: inline-block;
     font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
     width : 100px;
 }
 #result {
     display: block;
+    margin-top: 10px;
 }
 #copyright {
     display: block;
+    font-weight: bold;
 }
 
 
