@@ -5,7 +5,7 @@ function compute()
     var years = document.getElementById("years").value;
     
     if( (principal =='') || (principal == 0)) {
-        alert('Please enter a valid amount.');
+        alert('Please enter a positive number.');
         document.getElementById("principal").focus();
         return false;
     }
@@ -16,7 +16,7 @@ function compute()
     var curYear = new Date().getFullYear();
     var finalYear = parseInt(curYear) + parseInt(years);
     var amount = parseFloat((principal*rate*years)/100).toFixed(2);
-    
+
     document.getElementById('result').innerHTML= 'If you deposit <mark>'+principal+',</mark><br>'+
     'at an interest rate of <mark>'+rate+'%.</mark><br>'+
     'You will receive an amount of <mark>'+amount+',</mark><br>'+
