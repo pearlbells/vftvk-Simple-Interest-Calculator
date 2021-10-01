@@ -6,7 +6,7 @@ function compute()
     var curYear = new Date().getFullYear();
     var finalYear = parseInt(curYear) + parseInt(years);
 
-    if(principal =='') {
+    if( (principal =='') || (principal == 0)) {
         alert('Please enter a valid amount.');
         document.getElementById("principal").focus();
         return false;
@@ -16,7 +16,5 @@ function compute()
     'at an interest rate of <mark>'+rate+'%.</mark><br>'+
     'You will receive an amount of <mark>'+amount+',</mark><br>'+
     'in the year <mark>'+finalYear+'</mark><br>';
-
-    
 }
         
