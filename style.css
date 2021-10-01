@@ -27,6 +27,10 @@ h1 {
     margin-bottom: 15px;
     width : 100px;
 }
+#year_text {
+    display: none;
+    width: 40px;
+}
 #result {
     display: block;
     margin-top: 12px;
